@@ -5,13 +5,6 @@ The dataset used for this project is the [RDD2022 Dataset](https://github.com/se
 
 It consists both drone and car images. In particular, I the `RDD2022_China_Drone` dataset for training and testing. It is fairly small, with only 2400 images. Nevertheless, it is a good dataset to start with.
 
-RDD_CLASSES = ['D00',
-               'D10',
-               'D20',
-               'D40',
-               'Repair',
-               'Block crack']
-
 
 ### Classes
 |  Class Name   |     Description      |
@@ -25,9 +18,9 @@ RDD_CLASSES = ['D00',
 
 | Image 1 | Image 2 |
 |---------|---------|
-| ![Image 1](.\imgs\Figure_3.png) | ![Image 2](.\imgs\Figure_5.png) |
+| ![Image 1](./imgs/Figure_3.png) | ![Image 2](./imgs/Figure_5.png) |
 
-![Image 1](.\imgs\Figure_4.png) 
+![Image 1](./imgs/Figure_4.png) 
 
 
 ## Model
