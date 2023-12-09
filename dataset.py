@@ -47,7 +47,7 @@ def parse_xml(xml_file, RDD_claess=RDD_CLASSES):
         mean_y /= height
         box_width /= width
         box_height /= height
-        
+        # print(f"x: {mean_x}, y: {mean_y}, width: {box_width}, height: {box_height}")
         # name index
         name_indx = RDD_claess.index(name)
 
@@ -185,6 +185,11 @@ def test():
     img = img.numpy()
     # make unit8
     # img = img.astype(np.uint8)
+    
+    for i in range(7):
+        for j in range(7):
+            if label_matrix[i, j, 6] == 1:
+                print(f"Lable: {label_matrix[i, j,:]}")
     
     print(f"min: {np.min(img)}, max: {np.max(img)}")
     plt.imshow(img)
