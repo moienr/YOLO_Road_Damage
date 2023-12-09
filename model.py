@@ -117,3 +117,13 @@ class Yolov1(nn.Module):
             nn.LeakyReLU(0.1),
             nn.Linear(496, S * S * (C + B * 5)),
         )
+
+
+def test(S=7, B=2, C=6):
+    model = Yolov1(split_size=S, num_boxes=B, num_classes=C)
+    x = torch.randn((1, 3, 448, 448))
+    print(model(x).shape)
+    
+    
+if __name__ == "__main__":
+    test()
