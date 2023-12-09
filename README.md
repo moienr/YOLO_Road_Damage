@@ -18,9 +18,9 @@ It consists both drone and car images. In particular, I the `RDD2022_China_Drone
 
 | Image 1 | Image 2 |
 |---------|---------|
-| ![Image 1](./imgs/Figure_3.png) | ![Image 2](.\imgs\Figure_5.png) |
+| ![Image 1](./imgs/Figure_3.png) | ![Image 2](./imgs/Figure_5.png) |
 
-![Image 1](.\imgs\Figure_4.png) 
+![Image 1](./imgs/Figure_4.png) 
 
 
 ## Model
