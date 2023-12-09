@@ -24,7 +24,7 @@ It consists both drone and car images. In particular, I the `RDD2022_China_Drone
 
 
 ## Model
-To start with, I used the [YoloV1](https://arxiv.org/abs/1506.02640) model. It is a single stage object detection model. It is simple and easy to implement. It is also fast, with 45 FPS on a Titan X GPU. At the time of, I only trained the model for 100 epochs, but it is already able to detect the road damages, albeit not very well.
+To start with, I used the [YoloV1](https://arxiv.org/abs/1506.02640) model. It is a single stage object detection model. It is simple and easy to implement. It is also fasف. At the time of, I only trained the model for 30 epochs, but it is already able to detect the road damages, albeit not very well.
 
 ![Image 1](./imgs/arc.png) 
 
