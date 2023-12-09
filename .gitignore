@@ -1,0 +1,5 @@
+# BEGIN: /D:/python/YOLO/.gitignore
+*.pyc
+*.pyo
+__pycache__
+# END: /D:/python/YOLO/.gitignore
